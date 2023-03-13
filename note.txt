@@ -1,0 +1,17 @@
+Si se va a manejar un código javascript estructurado y de última tecnología lo recomendable sería gestionarlo a través de BABEL, este hará la conversión a ES2015 que usa Google Tag Manager.
+
+Los códigos deberán estar contenidos en la carpeta /src
+
+Instalar
+
+yarn add
+o
+npm install
+
+El comando para ejecutarlo es:
+
+npx babel src --out-dir dist
+
+Los archivos quedan en la carpeta dist/nombredelarchivo
+
+Se copia el código generado y se pega en GTM.
